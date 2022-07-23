@@ -28,8 +28,6 @@ fameus_person ={
 wrong_ansvers = 0
 rigth_answers = 0
 
-#name, birth_day = random.choice(list(fameus_person.items()))
-
 fameus_person = random.sample(list(fameus_person.items()), 5)
 
 for key, value in fameus_person:
